@@ -1,0 +1,643 @@
+﻿{
+    "DidntUnderstandMessage": {
+        "replies": [
+            {
+                "text": "Entschuldigung, ich habe nicht verstanden was Sie meinen.",
+                "speak": "Entschuldigung, ich habe nicht verstanden was Sie meinen."
+            },
+            {
+                "text": "Ich habe das leider nicht verstanden. Versuchen Sie bitte, ihr Anliegen umzuformulieren.",
+                "speak": "Ich habe das leider nicht verstanden. Versuchen Sie bitte, ihr Anliegen umzuformulieren."
+            },
+            {
+                "text": "K鰊nen Sie bitte versuchen, Ihre Frage umzufomulieren?",
+                "speak": "K鰊nen Sie bitte versuchen, Ihre Frage umzufomulieren?"
+            },
+            {
+                "text": "Ich habe leider nicht verstanden was Sie meinen. K鰊nen Sie ihr Anliegen bitte umformulieren?",
+                "speak": "Ich habe leider nicht verstanden was Sie meinen. K鰊nen Sie ihr Anliegen bitte umformulieren?"
+            },
+            {
+                "text": "K鰊nten Sie Ihr Anliegen bitte etwas ausf黨ren?",
+                "speak": "K鰊nten Sie Ihr Anliegen bitte etwas ausf黨ren?"
+            },
+            {
+                "text": "K鰊nten Sie Ihr Anliegen bitte noch einmal umformulieren?",
+                "speak": "K鰊nten Sie Ihr Anliegen bitte noch einmal umformulieren?"
+            },
+            {
+                "text": "Ich habe das leider nicht ganz verstanden.",
+                "speak": "Ich habe das leider nicht ganz verstanden."
+            },
+            {
+                "text": "K鰊nen Sie sich bitte noch einmal anders ausdr點ken?",
+                "speak": "K鰊nen Sie sich bitte noch einmal anders ausdr點ken?"
+            },
+            {
+                "text": "K鰊nen Sie bitte Ihre Frage noch einmal wiederholen? Ich habe nicht ganz verstanden, was Sie meinen.",
+                "speak": "K鰊nen Sie bitte Ihre Frage noch einmal wiederholen? Ich habe nicht ganz verstanden, was Sie meinen."
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "HelpMessage": {
+        "replies": [
+            {
+                "text": "Ich kann Ihnen einen 躡erblick 黚er Ihre heutigen Termine geben, Ihren bevorstehenden Termin vorlesen oder einen neuen Termin f黵 Sie anlegen.",
+                "speak": "Ich kann Ihnen einen 躡erblick 黚er Ihre heutigen Termine geben, Ihren bevorstehenden Termin vorlesen oder einen neuen Termin f黵 Sie anlegen."
+            }
+        ],
+        "suggestedActions": [
+            "Welche Termine habe ich heute?",
+            "Wie lautet mein n鋍hster Termin?",
+            "Ich m鯿hte einen neuen Termin erstellen.",
+            "K鰊nen Sie einen Termin aktualisieren?",
+            "K鰊nen Sie meinen Termin absagen?"
+        ],
+        "inputHint": "expectingInput"
+    },
+    "CalendarWelcomeMessage": {
+        "replies": [
+            {
+                "text": "Willkommen beim Kalender Bot! Ich kann Ihnen einen 躡erblick 黚er Ihre heutigen Termine geben, Ihren bevorstehenden Termin vorlesen oder einen neuen Termin f黵 Sie anlegen.",
+                "speak": "Willkommen beim Kalender Bot! Ich kann Ihnen einen 躡erblick 黚er Ihre heutigen Termine geben, Ihren bevorstehenden Termin vorlesen oder einen neuen Termin f黵 Sie anlegen."
+            }
+        ],
+        "suggestedActions": [
+            "Welche Termine habe ich heute?",
+            "Wie lautet mein n鋍hster Termin?",
+            "Ich m鯿hte einen neuen Termin erstellen.",
+            "K鰊nen Sie einen Termin aktualisieren?",
+            "K鰊nen Sie meinen Termin absagen?"
+        ],
+        "inputHint": "expectingInput"
+    },
+    "GoodbyeMessage": {
+        "replies": [
+            {
+                "text": "Auf Wiedersehen!  \r\n  Dr點ken Sie einfach die Sprachtaste, wenn Sie irgendetwas brauchen.",
+                "speak": "Auf Wiedersehen!  \r\n  Dr點ken Sie einfach die Sprachtaste, wenn Sie irgendetwas brauchen."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "GreetingMessage": {
+        "replies": [
+            {
+                "text": "Hi!",
+                "speak": "Hi!"
+            },
+            {
+                "text": "Ich bin hier!",
+                "speak": "Ich bin hier!"
+            },
+            {
+                "text": "Hallo!",
+                "speak": "Hallo!"
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "LogOut": {
+        "replies": [
+            {
+                "text": "Sie haben sich erfolgreich abgemeldet.",
+                "speak": "Sie haben sich erfolgreich abgemeldet."
+            },
+            {
+                "text": "Sie haben sich erfolgreich abgemeldet.",
+                "speak": "Sie haben sich erfolgreich abgemeldet."
+            },
+            {
+                "text": "Sie wurden abgemeldet.",
+                "speak": "Sie wurden abgemeldet."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "NoTitle": {
+        "replies": [
+            {
+                "text": "In Ordnung, ich werde das an {UserName} senden. Was ist das Thema des Meetings?",
+                "speak": "In Ordnung, ich werde das an {UserName} senden. Was ist das Thema des Meetings?"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "NoContent": {
+        "replies": [
+            {
+                "text": "Worum geht es bei dem Meeting?",
+                "speak": "Worum geht es bei dem Meeting?"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "NoAttendees": {
+        "replies": [
+            {
+                "text": "Wer sind die Teilnehmer? (Bitte geben Sie E-Mail Adressen an, wie z.B.: Alice@example.com)",
+                "speak": "Wer sind die Teilnehmer? (Bitte geben Sie E-Mail Adressen an, wie z.B.: Alice@example.com)"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "NoAttendeesMS": {
+        "replies": [
+            {
+                "text": "Wer sind die Teilnehmer?",
+                "speak": "Wer sind die Teilnehmer?"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "WrongAddress": {
+        "replies": [
+            {
+                "text": "Das ist keine g黮tige E-Mail Adresse, bitte versuchen Sie es erneut. (Bitte geben Sie E-Mail Adressen an, wie z.B.: Alice@example.com)",
+                "speak": "Das ist keine g黮tige E-Mail Adresse, bitte versuchen Sie es erneut. (Bitte geben Sie E-Mail Adressen an, wie z.B.: Alice@example.com)"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "PromptTooManyPeople": {
+        "replies": [
+            {
+                "text": "Es gibt zu viele Personen mit diesem Namen {UserName}. Bitte geben Sie den Namen erneut ein.",
+                "speak": "Es gibt zu viele Personen mit diesem Namen {UserName}. Bitte geben Sie den Namen erneut ein."
+            },
+            {
+                "text": "Ich habe zu viele Kontakte mit diesem Namen gefunden. K鰊nen Sie mir bitte genauere Informationen dazu geben?",
+                "speak": "Ich habe zu viele Kontakte mit diesem Namen gefunden. K鰊nen Sie mir bitte genauere Informationen dazu geben?"
+            },
+            {
+                "text": "K鰊nten Sie es noch einmal versuchen und den Vor- und Nachnamen angeben?",
+                "speak": "K鰊nten Sie es noch einmal versuchen und den Vor- und Nachnamen angeben?"
+            },
+            {
+                "text": "Ich habe zu viele Kontakte mit diesem Namen gefunden. K鰊nten Sie mir den Nachnamen nennen? Dann finde ich den Kontakt leichter.",
+                "speak": "Ich habe zu viele Kontakte mit diesem Namen gefunden. K鰊nten Sie mir den Nachnamen nennen? Dann finde ich den Kontakt leichter."
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "PromptPersonNotFound": {
+        "replies": [
+            {
+                "text": "Die Person konnte nicht gefunden werden. Bitte geben Sie den richtigen Namen an.",
+                "speak": "Die Person konnte nicht gefunden werden. Bitte geben Sie den richtigen Namen an.."
+            },
+            {
+                "text": "Ich kann den Kontakt, nach dem Sie gerade suchen, nicht finden. M鯿hten Sie es erneut versuchen? Es ist leichter, wenn Sie weitere Details zu dem Kontakt angeben.",
+                "speak": "Ich kann den Kontakt, nach dem Sie gerade suchen, nicht finden. M鯿hten Sie es erneut versuchen? Es ist leichter, wenn Sie weitere Details zu dem Kontakt angeben."
+            },
+            {
+                "text": "Ich kann leider den gesuchten Kontakt nicht finden . Bitte versuchen Sie es erneut, indem Sie den Nachnamen des Kontakts angeben.",
+                "speak": "Ich kann leider den gesuchten Kontakt nicht finden . Bitte versuchen Sie es erneut, indem Sie den Nachnamen des Kontakts angeben."
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "ConfirmRecipient": {
+        "replies": [
+            {
+                "text": "躡er welchen Nutzer sprechen Sie?",
+                "speak": "躡er welchen Nutzer sprechen Sie?"
+            },
+            {
+                "text": "Welchen Kontakt m鯿hten Sie ausw鋒len?",
+                "speak": "Welchen Kontakt m鯿hten Sie ausw鋒len?"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "NoStartDate": {
+        "replies": [
+            {
+                "text": "An welchem Datum?",
+                "speak": "An welchem Datum?"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "NoStartTime": {
+        "replies": [
+            {
+                "text": "Um wie viel Uhr?",
+                "speak": "Um wie viel Uhr?"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "NoDuration": {
+        "replies": [
+            {
+                "text": "Wie lange dauert der Termin?",
+                "speak": "Wie lange dauert der Termin?"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "NoLocation": {
+        "replies": [
+            {
+                "text": "M鯿hten Sie einen Ort hinzuf黦en?",
+                "speak": "M鯿hten Sie einen Ort hinzuf黦en?"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "EventCreated": {
+        "replies": [
+            {
+                "text": "Ich habe Folgendes zu Ihrem Kalender hinzugef黦t: ",
+                "speak": "Ich habe Folgendes zu Ihrem Kalender hinzugef黦t: "
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "EventCreationFailed": {
+        "replies": [
+            {
+                "text": "Die Erstellung des Termins ist fehlgeschlagen.",
+                "speak": "Die Erstellung des Termins ist fehlgeschlagen."
+            },
+            {
+                "text": "Es ist leider etwas schief gelaufen. Bitte versuchen Sie es erneut.",
+                "speak": "Es ist leider etwas schief gelaufen. Bitte versuchen Sie es erneut."
+            },
+            {
+                "text": "Der Termin konnte offenbar nicht erstellt werden. Bitte versuchen Sie es sp鋞er erneut.",
+                "speak": "Der Termin konnte offenbar nicht erstellt werden. Bitte versuchen Sie es sp鋞er erneut."
+            },
+            {
+                "text": "Die Erstellung des Termins ist fehlgeschlagen. Bitte versuchen Sie es erneut.",
+                "speak": "Die Erstellung des Termins ist fehlgeschlagen. Bitte versuchen Sie es erneut."
+            },
+            {
+                "text": "Bei der Terminerstellung ist ein Fehler aufgetreten. M鯿hten Sie es erneut probieren?",
+                "speak": "Bei der Terminerstellung ist ein Fehler aufgetreten. M鯿hten Sie es erneut probieren?"
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "NothingToCancelMessage": {
+        "replies": [
+            {
+                "text": "Es liegt kein Termin vor, den ich absagen kann.",
+                "speak": "Es liegt kein Termin vor, den ich absagen kann."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "EventWithStartTimeNotFound": {
+        "replies": [
+            {
+                "text": "Es gibt kein Event unter diesem Namen und kein Event, das zu diesem Zeitpunkt beginnt. Bitte versuchen Sie erneut.",
+                "speak": "Es gibt kein Event unter diesem Namen und kein Event, das zu diesem Zeitpunkt beginnt. Bitte versuchen Sie erneut."
+            },
+            {
+                "text": "Ich konnte keinen Termin finden, nach dem Sie gesucht haben. Bitte versuchen Sie es erneut.",
+                "speak": "Ich konnte keinen Termin finden, nach dem Sie gesucht haben. Bitte versuchen Sie es erneut."
+            },
+            {
+                "text": "Es konnte kein Termin mit diesem Namen oder diesem Startzeitpunkt gefunden werden. K鰊nen Sie es bitte erneut versuchen?",
+                "speak": "Es konnte kein Termin mit diesem Namen oder diesem Startzeitpunkt gefunden werden. K鰊nen Sie es bitte erneut versuchen?"
+            },
+            {
+                "text": "Offenbar gibt es keinen Termin mit diesem Titel. Versuchen Sie es bitte erneut.",
+                "speak": "Offenbar gibt es keinen Termin mit diesem Titel. Versuchen Sie es bitte erneut."
+            },
+            {
+                "text": "Offenbar gibt es zu diesem Zeitpunkt keinen Termin. Bitte versuchen Sie es erneut.",
+                "speak": "Offenbar gibt es zu diesem Zeitpunkt keinen Termin. Bitte versuchen Sie es erneut."
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "NoUpdateStartTime": {
+        "replies": [
+            {
+                "text": "Welchen Termin w黵den Sie gerne 鋘dern? Wenn Sie mir den Startzeitpunkt oder den Namen des Termins nennen, kann ich den Termin aufrufen.",
+                "speak": "Welchen Termin w黵den Sie gerne 鋘dern? Wenn Sie mir den Startzeitpunkt oder den Namen des Termins nennen, kann ich den Termin aufrufen."
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "NoDeleteStartTime": {
+        "replies": [
+            {
+                "text": "Welchen Termin w黵den Sie gerne l鰏chen? Wenn Sie mir den Startzeitpunkt oder den Namen des Termins nennst, kann ich den Termin aufrufen.",
+                "speak": "Welchen Termin w黵den Sie gerne l鰏chen? Wenn Sie mir den Startzeitpunkt oder den Namen des Termins nennst, kann ich den Termin aufrufen."
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "MultipleEventsStartAtSameTime": {
+        "replies": [
+            {
+                "text": "Es gibt mehrere Termine zu diesem Zeitpunkt. Bitte w鋒len Sie den gew黱schten aus.",
+                "speak": "Es gibt mehrere Termine zu diesem Zeitpunkt. Bitte w鋒len Sie den gew黱schten aus."
+            },
+            {
+                "text": "Ich habe mehrere Termine gefunden. K鰊nen Sie bitte den gew黱schten Termin ausw鋒len?",
+                "speak": "Ich habe mehrere Termine gefunden. K鰊nen Sie bitte den gew黱schten Termin ausw鋒len?"
+            },
+            {
+                "text": "Es gibt mehrere Termine. Bitte w鋒len Sie den relevanten Termin aus.",
+                "speak": "Es gibt mehrere Termine. Bitte w鋒len Sie den relevanten Termin aus."
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "NoNewTime": {
+        "replies": [
+            {
+                "text": "Was ist die neue Uhrzeit des Termins?",
+                "speak": "Was ist die neue Uhrzeit des Termins?"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "EventUpdated": {
+        "replies": [
+            {
+                "text": "Ich habe den Zeitpunkt Ihres Termins ge鋘dert.",
+                "speak": "Ich habe den Zeitpunkt Ihres Termins ge鋘dert."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "EventDeleted": {
+        "replies": [
+            {
+                "text": "Ich habe den Termin gel鰏cht.",
+                "speak": "Ich habe den Termin gel鰏cht."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "ConfirmDelete": {
+        "replies": [
+            {
+                "text": "Sind Sie sicher, dass Sie den folgenden Termin aus Ihrem Kalender l鰏chen m鯿hten?",
+                "speak": "Sind Sie sicher, dass Sie den folgenden Termin aus Ihrem Kalender l鰏chen m鯿hten?"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "ConfirmDeleteFailed": {
+        "replies": [
+            {
+                "text": "Sind Sie sicher, dass Sie den folgenden Termin in Ihrem Kalender l鰏chen m鯿hten?  Bitte best鋞igen Sie durch \"ja\" oder brechen Sie den Vorgang ab, indem Sie \"nein\" angeben.",
+                "speak": "Sind Sie sicher, dass Sie den folgenden Termin in Ihrem Kalender l鰏chen m鯿hten?  Bitte best鋞igen Sie durch \"ja\" oder brechen Sie den Vorgang ab, indem Sie \"nein\" angeben."
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "ConfirmCreate": {
+        "replies": [
+            {
+                "text": "Ich kann den Termin nun erstellen. Bitte best鋞igen Sie Folgendes:",
+                "speak": "Ich kann den Termin nun erstellen. Bitte best鋞igen Sie Folgendes:"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "ConfirmCreateFailed": {
+        "replies": [
+            {
+                "text": "Ich kann den Termin jetzt erstellen. Bitte best鋞igen Sie mit \"ja\" oder verneinen Sie mit \"nein.\"",
+                "speak": "Ich kann den Termin jetzt erstellen. Bitte best鋞igen Sie mit \"ja\" oder verneinen Sie mit \"nein.\""
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "ConfirmUpdate": {
+        "replies": [
+            {
+                "text": "Sind Sie sicher, dass Sie den folgenden Termin aktualisieren m鯿hten?",
+                "speak": "Sind Sie sicher, dass Sie den folgenden Termin aktualisieren m鯿hten"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "ConfirmUpdateFailed": {
+        "replies": [
+            {
+                "text": "Sind Sie sich sicher, dass Sie dies aktualisieren m鯿hten? Bitte best鋞igen oder verneinen Sie.",
+                "speak": "Sind Sie sich sicher, dass Sie dies aktualisieren m鯿hten? Bitte best鋞igen oder verneinen Sie."
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "ProviderSelect": {
+        "replies": [
+            {
+                "text": "Welchen Provider m鯿hten Sie nutzen? Google oder Microsoft?",
+                "speak": "Welchen Provider m鯿hten Sie nutzen? Google oder Microsoft?"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "NotEventOrganizer": {
+        "replies": [
+            {
+                "text": "Ich kann den Termin nicht aktualisieren, weil Sie nicht der Organisator sind.",
+                "speak": "Ich kann den Termin nicht aktualisieren, weil Sie nicht der Organisator sind."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "SelectProvider": {
+        "replies": [
+            {
+                "text": "Welchen Provider m鯿hten Sie nutzen? Google oder Microsoft?",
+                "speak": "Welchen Provider m鯿hten Sie nutzen? Google oder Microsoft?"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "FindUserErrorMessage": {
+        "replies": [
+            {
+                "text": "Ich kann die Person mit dem Namen {UserName} gerade nicht finden. Bitte versuchen Sie es erneut oder brechen Sie den Schritt ab.",
+                "speak": "Ich kann die Person mit dem Namen {UserName} gerade nicht finden. Bitte versuchen Sie es erneut oder brechen Sie den Schritt ab."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "ShowNextMeetingNoLocationMessage": {
+        "replies": [
+            {
+                "text": "Sie haben den folgenden Termin in Ihrem Kalender: ",
+                "speak": "Sie haben den folgenden Termin in Ihrem Kalender: Sie haben {EventName} um {EventTime} mit {PeopleCount} Personen."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "ShowNextMeetingMessage": {
+        "replies": [
+            {
+                "text": "Sie haben den folgenden Termin in Ihrem Kalender: ",
+                "speak": "Sie haben den folgenden Termin in Ihrem Kalender: Sie haben {EventName} um {EventTime} mit {PeopleCount} Personen in {Location}."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "ShowMultipleNextMeetingMessage": {
+        "replies": [
+            {
+                "text": "Sie haben die folgenden Termine in Ihrem Kalender: ",
+                "speak": "Sie haben die folgenden Termine in Ihrem Kalender: "
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "ShowMultipleMeetingSummaryMessage": {
+        "replies": [
+            {
+                "text": "Ich habe heute {Count} folgende Termine f黵 Sie gefunden:",
+                "speak": "Ich habe heute {Count} folgende Termine f黵 Sie gefunden: Der Erste ist {EventName1} f黵 {EventDuration} und das letzte Meeting ist {EventName2} um {EventTime}"
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "ShowOneMeetingSummaryMessage": {
+        "replies": [
+            {
+                "text": "Ich habe heute {Count} folgende Termine f黵 Sie gefunden:",
+                "speak": "Ich habe heute {Count} folgende Termine f黵 Sie gefunden: Es ist {EventName1} f黵 {EventDuration}."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "ShowNoMeetingMessage": {
+        "replies": [
+            {
+                "text": "Sie haben keinen Termin.",
+                "speak": "Sie haben keinen Termin.."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "ActionEnded": {
+        "replies": [
+            {
+                "text": "Sagen Sie Bescheid, wenn Sie bei etwas anderem meine Hilfe brauchen",
+                "speak": "Sagen Sie Bescheid, wenn Sie bei etwas anderem meine Hilfe brauchen."
+            },
+            {
+                "text": "Ich bin hier, wenn Sie mich brauchen.",
+                "speak": "Ich bin hier, wenn Sie mich brauchen."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "CalendarErrorMessage": {
+        "replies": [
+            {
+                "text": "Entschuldigung, offenbar ist etwas schief gelaufen!",
+                "speak": "Entschuldigung, offenbar ist etwas schief gelaufen!"
+            },
+            {
+                "text": "Es ist ein Fehler aufgetreten. Geben Sie mir etwas Zeit und versuchen Sie es sp鋞er erneut.",
+                "speak": "Es ist ein Fehler aufgetreten. Geben Sie mir etwas Zeit und versuchen Sie es sp鋞er erneut."
+            },
+            {
+                "text": "Etwas ist schief gelaufen. Entschuldigung!",
+                "speak": "Etwas ist schief gelaufen. Entschuldigung!"
+            },
+            {
+                "text": "Ich glaube etwas ist schief gelaufen. K鰊nen Sie es bitte sp鋞er noch einmal versuchen?",
+                "speak": "Ich glaube etwas ist schief gelaufen. K鰊nen Sie es bitte sp鋞er noch einmal versuchen?"
+            },
+            {
+                "text": "Entschuldigung. Ich kann gerade nicht finden, wonach Sie suchen. Versuche Sie es bitte sp鋞er erneut.",
+                "speak": "Entschuldigung. Ich kann gerade nicht finden, wonach Sie suchen. Versuche Sie es bitte sp鋞er erneut."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "CalendarNoMoreEvent": {
+        "replies": [
+            {
+                "text": "Keine weiteren Termine!",
+                "speak": "Keine weiteren Termine!"
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "CalendarNoPreviousEvent": {
+        "replies": [
+            {
+                "text": "Das ist bereits die erste Seite!",
+                "speak": "Das ist bereits die erste Seite!"
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "ReadOutPrompt": {
+        "replies": [
+            {
+                "text": "Zu welchem m鯿hten Sie gerne mehr erfahren?",
+                "speak": "Zu welchem m鯿hten Sie gerne mehr erfahren"
+            },
+            {
+                "text": "Welchen Termin soll ich Ihnen vorlesen?",
+                "speak": "Welchen Termin soll ich Ihnen vorlesen?"
+            },
+            {
+                "text": "Gibt es irgendeinen Termin, den ich Ihnen vorlesen soll?",
+                "speak": "Gibt es irgendeinen Termin, den ich Ihnen vorlesen soll?"
+            },
+            {
+                "text": "Zu welchem m鯿hten Sie gerne mehr erfahren?",
+                "speak": "Zu welchem m鯿hten Sie gerne mehr erfahren?"
+            },
+            {
+                "text": "Zu welchem Termin w黵den Sie gerne das Thema erfahren?",
+                "speak": "Zu welchem Termin w黵den Sie gerne das Thema erfahren?"
+            },
+            {
+                "text": "Welchen Termin soll ich vorlesen?",
+                "speak": "Welchen Termin soll ich vorlesen?"
+            },
+            {
+                "text": "躡er welchen Termin m鯿hten Sie mehr erfahren?",
+                "speak": "躡er welchen Termin m鯿hten Sie mehr erfahren?"
+            },
+            {
+                "text": "Zu welchem Termin soll ich Ihnen detailliertere Informationen geben?",
+                "speak": "Zu welchem Termin soll ich Ihnen detailliertere Informationen geben?"
+            },
+            {
+                "text": "Welchen Termin soll ich Ihnen vorlesen?",
+                "speak": "Welchen Termin soll ich Ihnen vorlesen?"
+            }
+        ],
+        "inputHint": "expectingInput"
+    },
+    "ReadOutMessage": {
+        "replies": [
+            {
+                "text": "Details des Termins:",
+                "speak": "Details des Termins: {MeetingDetails}"
+            },
+            {
+                "text": "Thema des Termins:",
+                "speak": "Thema des Termins: {MeetingDetails}"
+            }
+        ],
+        "inputHint": "acceptingInput"
+    },
+    "CalendarErrorMessageBotProblem": {
+        "replies": [
+            {
+                "text": "Sorry, im Moment stimmt der Bot nicht. Der Entwickler wurde darüber informiert, so dass Sie die Aktion bald wieder ausführen können.",
+                "speak": "Sorry, im Moment stimmt der Bot nicht. Der Entwickler wurde darüber informiert, so dass Sie die Aktion bald wieder ausführen können."
+            }
+        ],
+        "inputHint": "acceptingInput"
+    }
+}

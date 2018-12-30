@@ -1,0 +1,4019 @@
+{
+  "intents": [
+    {
+      "name": "AddToDo"
+    },
+    {
+      "name": "DeleteToDo"
+    },
+    {
+      "name": "MarkToDo"
+    },
+    {
+      "name": "None"
+    },
+    {
+      "name": "ShowToDo"
+    }
+  ],
+  "entities": [
+    {
+      "name": "ListType",
+      "roles": []
+    },
+    {
+      "name": "TaskContentML",
+      "roles": []
+    },
+    {
+      "name": "ContainsAll",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [
+    {
+      "name": "FoodOfGrocery",
+      "subLists": [
+        {
+          "canonicalForm": "air freshener",
+          "list": []
+        },
+        {
+          "canonicalForm": "apple",
+          "list": [
+            "苹果"
+          ]
+        },
+        {
+          "canonicalForm": "bacon",
+          "list": []
+        },
+        {
+          "canonicalForm": "bagel",
+          "list": []
+        },
+        {
+          "canonicalForm": "bagels",
+          "list": []
+        },
+        {
+          "canonicalForm": "banana",
+          "list": [
+            "香蕉"
+          ]
+        },
+        {
+          "canonicalForm": "beans",
+          "list": []
+        },
+        {
+          "canonicalForm": "beverages",
+          "list": []
+        },
+        {
+          "canonicalForm": "bread",
+          "list": []
+        },
+        {
+          "canonicalForm": "buns",
+          "list": []
+        },
+        {
+          "canonicalForm": "burgers",
+          "list": []
+        },
+        {
+          "canonicalForm": "butter",
+          "list": []
+        },
+        {
+          "canonicalForm": "carrot",
+          "list": [
+            "胡萝卜"
+          ]
+        },
+        {
+          "canonicalForm": "celery",
+          "list": []
+        },
+        {
+          "canonicalForm": "cereal",
+          "list": []
+        },
+        {
+          "canonicalForm": "cheese",
+          "list": []
+        },
+        {
+          "canonicalForm": "chicken",
+          "list": []
+        },
+        {
+          "canonicalForm": "chili",
+          "list": []
+        },
+        {
+          "canonicalForm": "chips",
+          "list": []
+        },
+        {
+          "canonicalForm": "chocolate chip",
+          "list": [
+            "巧克力片"
+          ]
+        },
+        {
+          "canonicalForm": "chocolates",
+          "list": []
+        },
+        {
+          "canonicalForm": "chops",
+          "list": []
+        },
+        {
+          "canonicalForm": "cloves",
+          "list": []
+        },
+        {
+          "canonicalForm": "coffee",
+          "list": []
+        },
+        {
+          "canonicalForm": "corn",
+          "list": []
+        },
+        {
+          "canonicalForm": "crispy",
+          "list": []
+        },
+        {
+          "canonicalForm": "croissant",
+          "list": [
+            "羊角 面包"
+          ]
+        },
+        {
+          "canonicalForm": "cupcakes",
+          "list": []
+        },
+        {
+          "canonicalForm": "dairy",
+          "list": []
+        },
+        {
+          "canonicalForm": "dishwashing detergent",
+          "list": []
+        },
+        {
+          "canonicalForm": "donuts",
+          "list": []
+        },
+        {
+          "canonicalForm": "drinks",
+          "list": []
+        },
+        {
+          "canonicalForm": "duck",
+          "list": []
+        },
+        {
+          "canonicalForm": "egg",
+          "list": [
+            "鸡蛋"
+          ]
+        },
+        {
+          "canonicalForm": "fish",
+          "list": [
+            "鱼"
+          ]
+        },
+        {
+          "canonicalForm": "flour",
+          "list": []
+        },
+        {
+          "canonicalForm": "fries",
+          "list": []
+        },
+        {
+          "canonicalForm": "frozen food",
+          "list": []
+        },
+        {
+          "canonicalForm": "fruit",
+          "list": [
+            "水果"
+          ]
+        },
+        {
+          "canonicalForm": "garbage bag",
+          "list": [
+            "垃圾袋"
+          ]
+        },
+        {
+          "canonicalForm": "garlic",
+          "list": []
+        },
+        {
+          "canonicalForm": "grilled",
+          "list": []
+        },
+        {
+          "canonicalForm": "ham",
+          "list": []
+        },
+        {
+          "canonicalForm": "hamburger",
+          "list": []
+        },
+        {
+          "canonicalForm": "ice cream",
+          "list": []
+        },
+        {
+          "canonicalForm": "jam",
+          "list": []
+        },
+        {
+          "canonicalForm": "lamb",
+          "list": []
+        },
+        {
+          "canonicalForm": "laundry detergent",
+          "list": []
+        },
+        {
+          "canonicalForm": "lemon",
+          "list": [
+            "柠檬"
+          ]
+        },
+        {
+          "canonicalForm": "lettuce",
+          "list": []
+        },
+        {
+          "canonicalForm": "lettuce and salad",
+          "list": [
+            "沙拉"
+          ]
+        },
+        {
+          "canonicalForm": "lobster",
+          "list": []
+        },
+        {
+          "canonicalForm": "marinated",
+          "list": []
+        },
+        {
+          "canonicalForm": "meat",
+          "list": []
+        },
+        {
+          "canonicalForm": "meatballs",
+          "list": []
+        },
+        {
+          "canonicalForm": "meatloaf",
+          "list": []
+        },
+        {
+          "canonicalForm": "milk",
+          "list": []
+        },
+        {
+          "canonicalForm": "onion",
+          "list": [
+            "洋葱"
+          ]
+        },
+        {
+          "canonicalForm": "oysters",
+          "list": []
+        },
+        {
+          "canonicalForm": "pancake mix",
+          "list": []
+        },
+        {
+          "canonicalForm": "pancakes",
+          "list": []
+        },
+        {
+          "canonicalForm": "pasta",
+          "list": []
+        },
+        {
+          "canonicalForm": "pastry",
+          "list": [
+            "糕点"
+          ]
+        },
+        {
+          "canonicalForm": "pear",
+          "list": [
+            "梨"
+          ]
+        },
+        {
+          "canonicalForm": "pepper",
+          "list": []
+        },
+        {
+          "canonicalForm": "pie",
+          "list": [
+            "脚"
+          ]
+        },
+        {
+          "canonicalForm": "pita",
+          "list": []
+        },
+        {
+          "canonicalForm": "potato",
+          "list": [
+            "土豆"
+          ]
+        },
+        {
+          "canonicalForm": "poultry",
+          "list": []
+        },
+        {
+          "canonicalForm": "ribs",
+          "list": []
+        },
+        {
+          "canonicalForm": "rice",
+          "list": []
+        },
+        {
+          "canonicalForm": "roast",
+          "list": []
+        },
+        {
+          "canonicalForm": "rolls",
+          "list": []
+        },
+        {
+          "canonicalForm": "salads",
+          "list": []
+        },
+        {
+          "canonicalForm": "salmon",
+          "list": []
+        },
+        {
+          "canonicalForm": "salt",
+          "list": []
+        },
+        {
+          "canonicalForm": "sandwich",
+          "list": []
+        },
+        {
+          "canonicalForm": "sauce",
+          "list": []
+        },
+        {
+          "canonicalForm": "sausage",
+          "list": [
+            "香肠"
+          ]
+        },
+        {
+          "canonicalForm": "scones",
+          "list": []
+        },
+        {
+          "canonicalForm": "shellfish",
+          "list": []
+        },
+        {
+          "canonicalForm": "shrimp",
+          "list": []
+        },
+        {
+          "canonicalForm": "snacks",
+          "list": []
+        },
+        {
+          "canonicalForm": "sour cream",
+          "list": []
+        },
+        {
+          "canonicalForm": "steak",
+          "list": []
+        },
+        {
+          "canonicalForm": "strawberries",
+          "list": []
+        },
+        {
+          "canonicalForm": "sugar",
+          "list": []
+        },
+        {
+          "canonicalForm": "sushi",
+          "list": []
+        },
+        {
+          "canonicalForm": "sweets",
+          "list": []
+        },
+        {
+          "canonicalForm": "tenderloin",
+          "list": []
+        },
+        {
+          "canonicalForm": "tomato",
+          "list": [
+            "西红柿"
+          ]
+        },
+        {
+          "canonicalForm": "toothpaste",
+          "list": []
+        },
+        {
+          "canonicalForm": "tortilla",
+          "list": []
+        },
+        {
+          "canonicalForm": "tuna",
+          "list": []
+        },
+        {
+          "canonicalForm": "turkey",
+          "list": []
+        },
+        {
+          "canonicalForm": "veal",
+          "list": []
+        },
+        {
+          "canonicalForm": "vegetable",
+          "list": [
+            "蔬菜"
+          ]
+        },
+        {
+          "canonicalForm": "venison",
+          "list": []
+        },
+        {
+          "canonicalForm": "waffles",
+          "list": []
+        },
+        {
+          "canonicalForm": "yoghurt",
+          "list": []
+        }
+      ],
+      "roles": []
+    },
+    {
+      "name": "ShopVerb",
+      "subLists": [
+        {
+          "canonicalForm": "buy",
+          "list": [
+            "买"
+          ]
+        },
+        {
+          "canonicalForm": "purchase",
+          "list": [
+            "购买"
+          ]
+        },
+        {
+          "canonicalForm": "shop",
+          "list": [
+            "商店"
+          ]
+        }
+      ],
+      "roles": []
+    }
+  ],
+  "regex_entities": [],
+  "model_features": [],
+  "regex_features": [],
+  "utterances": [
+    {
+      "text": "添加一些项目到 杂货店 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "添加一个 杂货店 购买鱼的项目",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "添加一个 杂货店 项到 买水果和蔬菜",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 7
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 12,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "添加一个 杂货店 项到 买蔬菜",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 7
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 12,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "添加一个新的 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "添加一个 购物 项到 买跳舞的礼服",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 11,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "添加一个 购物 要购买的项目 橙汁",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 15,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "添加任务 安娜西部带上我的泳衣度假",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "添加任务 意大利面周日3月3日",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "添加一个任务, 购买水果和蔬菜",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 8,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "将任务添加到 本周完成驾驶考试",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 7,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "将任务添加到 下班后去接玛丽",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 7,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "将任务添加到 下班后在 gnc 购物",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 7,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "添加一个来做到这一点 买一件漂亮的毛衣",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 11,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "添加一个 要做的事 自 买鞋",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 8
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 12,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "添加一个 所有 项目 10月3日清空",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 11,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "添加操作项 哈利法, 包装我的学校用品 在我的列表中",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "将项目添加到该项目 购物",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "添加的任务 做家务在房子周围",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "添加 参加会议 到我的 所有 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 6
+        },
+        {
+          "entity": "ListType",
+          "startPos": 12,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "添加 布罗布尼什 到 杂货店 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 7
+        },
+        {
+          "entity": "ListType",
+          "startPos": 11,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "添加 买口香糖",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "添加 买牛奶 到我的 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 5
+        },
+        {
+          "entity": "ListType",
+          "startPos": 11,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "添加 买鞋 到我的 所有 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "添加 打电话给我妈妈 到我的 所有 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 9
+        },
+        {
+          "entity": "ListType",
+          "startPos": 15,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "添加 即将到期的8月花生酱花生酱果冻面包牛奶 上 所有 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 21
+        },
+        {
+          "entity": "ListType",
+          "startPos": 25,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "添加 去跑步 到我的 到多斯",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 5
+        },
+        {
+          "entity": "ListType",
+          "startPos": 11,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "添加 去吃全食 在我的要做的列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "添加 杂货店 添加 菠菜 我 杂货 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 5
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 10,
+          "endPos": 11
+        },
+        {
+          "entity": "ListType",
+          "startPos": 15,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "添加 杂货店 项目 奶油奶酪和葡萄干 到列表中",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 5
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 10,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "添加 杂货店 项目 晚餐和储物袋 到 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 5
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 10,
+          "endPos": 15
+        },
+        {
+          "entity": "ListType",
+          "startPos": 19,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "添加 有一个发型 到我的任务",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "添加项目, 因为我说话",
+      "intent": "AddToDo",
+      "entities": []
+    },
+    {
+      "text": "添加 榨 汁 机   杂货 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 7
+        },
+        {
+          "entity": "ListType",
+          "startPos": 11,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "添加 甜瓜、糖和红糖 自 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 9
+        },
+        {
+          "entity": "ListType",
+          "startPos": 13,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "将更多添加到 杂货店 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "添加花生的 杂货店 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "添加 去接我儿子 到我的 所有 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 7
+        },
+        {
+          "entity": "ListType",
+          "startPos": 13,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "添加 买一张电影票 到我的列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "添加 购买食品和饮料 到我的 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 9
+        },
+        {
+          "entity": "ListType",
+          "startPos": 15,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "添加 阅读 到我的 要做的事 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "添加 鞋 到 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "添加一些项目到 购物 笔记",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "添加一些 牛仔裤 在我们的 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 7
+        },
+        {
+          "entity": "ListType",
+          "startPos": 14,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "在此添加的东西 杂货店 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "将某些内容添加到我的列表",
+      "intent": "AddToDo",
+      "entities": []
+    },
+    {
+      "text": "添加 木薯淀粉 在我的 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 6
+        },
+        {
+          "entity": "ListType",
+          "startPos": 12,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "添加 木薯淀粉 在我们的 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 6
+        },
+        {
+          "entity": "ListType",
+          "startPos": 13,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "将任务添加到 买一件外套",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 7,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "将任务添加到 设置饭桌",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 7,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "添加此 我2017年的目标 在我的列表中",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 4,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "添加此在我们的 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "在我的上添加此内容 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "添加此内容中 要做的事 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "添加到我的 杂货店 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "添加到我的 要做的事 列表 拿起衣服",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 6,
+          "endPos": 9
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 14,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "添加到我的 要做的事 列表 今天下午10份的印刷文件",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 6,
+          "endPos": 9
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 14,
+          "endPos": 25
+        }
+      ]
+    },
+    {
+      "text": "添加到我的 所有 列表 在星期六之前把保险表格邮寄出去",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 12,
+          "endPos": 26
+        }
+      ]
+    },
+    {
+      "text": "添加到注释中 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "添加到 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "添加到 杂货店 注意 买牛奶",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 4,
+          "endPos": 6
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 11,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "追加一个 夏季阅读 在我的列表中",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "追加任务 客人邀请在党",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "我可以添加 衬衫 上的 所有 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "ListType",
+          "startPos": 12,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "我可以穿上吗 焦糖奶酪爆米花 在我的 杂货店 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 7,
+          "endPos": 13
+        },
+        {
+          "entity": "ListType",
+          "startPos": 19,
+          "endPos": 21
+        }
+      ]
+    },
+    {
+      "text": "我可以添加 医学 到 所有 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 7
+        },
+        {
+          "entity": "ListType",
+          "startPos": 11,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "创建一个任务 见见我的朋友",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 7,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "创建任务, 去商场",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "创建任务, 下午5点以后和约翰见面",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "创建任务以 11月的网络购物。11",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "创建这样做 今晚读一本书",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "创建要做的事情 去公园里跑步",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 8,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "把 奶酪 在名单上",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 2,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "把 他 在我的 购物 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 2,
+          "endPos": 2
+        },
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "把 上涨 在我的 要做的事 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 2,
+          "endPos": 3
+        },
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "把 冰淇淋 上的 杂货 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 2,
+          "endPos": 4
+        },
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "把 牛奶 在我的 杂货店 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 2,
+          "endPos": 3
+        },
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "把 焦糖奶酪爆米花 在我的 买 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 2,
+          "endPos": 8
+        },
+        {
+          "entity": "ListType",
+          "startPos": 14,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "提醒我, 参加明天的会议",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "提醒我 购买急救面霜和浆果",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 4,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "提醒我 买牛奶",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "提醒我 见见我的老师",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 4,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "提醒我去购物 新地毯",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "自 杂货店 列表添加 牛奶",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 2,
+          "endPos": 4
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 11,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "到我的 购物 列表添加 纸巾",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 4,
+          "endPos": 5
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 12,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "我的假期 要做的事 列表添加 购买防晒霜",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 8
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 15,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "你会添加 重奶油 到 所有 列表",
+      "intent": "AddToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 7
+        },
+        {
+          "entity": "ListType",
+          "startPos": 11,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "你能帮助删除 所有 任务",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "ContainsAll",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "取消 苹果 从 购物 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "删除 所有 从我的 杂货店 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "ContainsAll",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "删除 鸡蛋 从列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "删除煎饼混合上的 购物 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "删除 洗发水 从 购物 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 5
+        },
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "删除 衬衫 从列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "删除任务 去钓鱼",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "删除任务 今晚去看电影",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "删除项目 买袜子 从我的 待办事项 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 7
+        },
+        {
+          "entity": "ListType",
+          "startPos": 13,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "删除我的第二个任务 购物 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "删除任务 房子清理这个周末",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "删除的任务, 每天早上去健身房",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 7,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "删除要执行的操作 明天见我的朋友",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 9,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "删除要执行的 每日练习钢琴",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 7,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "删除要执行的 满足约翰, 当他来到这里的下周五",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 7,
+          "endPos": 22
+        }
+      ]
+    },
+    {
+      "text": "删除以执行 买牛奶",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "删除以执行 去购物",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "删除以执行此操作 明天去远足",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 9,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "擦 除 香蕉 从 购物 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 4,
+          "endPos": 5
+        },
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "擦 除 花生 上的 购物 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 4,
+          "endPos": 5
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "不需要 买牛奶 在 杂货店 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 4,
+          "endPos": 6
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "省略了 牛奶 在 杂货店 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 4,
+          "endPos": 5
+        },
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "删除 所有",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "ContainsAll",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "删除 所有 任务",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "ContainsAll",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "删除 阿斯普林 从 购物 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 6
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "删除 黑色鞋 从 购物 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 5
+        },
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "删除 类 从 所有 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 3
+        },
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "删除 沙拉蔬菜 从 杂货店 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 6
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "删除任务 买狗食",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "删除任务 去购物",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "删除任务, 这个周末去远足",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "删除任务, 割草",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "删除项目 巴黎 从我的列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "删除的任务, 下班后去图书馆",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 7,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "删除要执行的操作 体检",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "删除要执行的 下午六点把汤姆接走。",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 7,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "删除要执行 去健身房",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "删除, 以做到这一点 明天早上去看牙医",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 11,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "购物 列表删除 狗食",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "购物 列表删除 鸡蛋",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "购物 列表删除 牛奶",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "把咖啡从我的 杂货 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "从我的柠檬和洋葱 购物 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "采取 牛奶 关闭 杂货店 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "采取 袜子和鞋子 关闭我的 购物 列表",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 7
+        },
+        {
+          "entity": "ListType",
+          "startPos": 14,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "所有 列表删除 巴黎度假",
+      "intent": "DeleteToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "TaskContentML",
+          "startPos": 8,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "所有 已经做了",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "ContainsAll",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "所有 已在购买 购物 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "ContainsAll",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "已经完成了 购物 列表中的项目",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 6,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "检查关闭 苹果 从列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "检查关闭 香蕉 从我的 杂货店 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "ListType",
+          "startPos": 12,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "检查关闭 垃圾 从 杂货店 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "检查关闭 早上8点和约翰见面 从 要做的事 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 13
+        },
+        {
+          "entity": "ListType",
+          "startPos": 17,
+          "endPos": 20
+        }
+      ]
+    },
+    {
+      "text": "检查关闭 洗发水 从 购物 已完成的列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 7
+        },
+        {
+          "entity": "ListType",
+          "startPos": 11,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "选中 \"\" 复选框 洗发水 在我的 购物 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 10,
+          "endPos": 12
+        },
+        {
+          "entity": "ListType",
+          "startPos": 18,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "完成 所有",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "ContainsAll",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "完成 拿起黑色的鞋子 在我的 待办事项 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 9
+        },
+        {
+          "entity": "ListType",
+          "startPos": 15,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "完成任务 去购物",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "完成任务 木薯淀粉 在我们的 购物 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 8
+        },
+        {
+          "entity": "ListType",
+          "startPos": 15,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "完成 上涨 在我的 要做的事 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "完成 花生 上的 购物 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "让我检查关闭 杂货 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "马克 买鱼 已完成",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "马克 鱼 已完成",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 3
+        }
+      ]
+    },
+    {
+      "text": "马克 快乐 上 到多斯 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "马克 柠檬和洋葱 在 杂货店 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 7
+        },
+        {
+          "entity": "ListType",
+          "startPos": 11,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "马克 煎饼混合 在我的 买 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 6
+        },
+        {
+          "entity": "ListType",
+          "startPos": 12,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "马克 花生 在我的 杂货店 已完成的列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "马克 花生 在我的 杂货店   购物 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 12
+        },
+        {
+          "entity": "ListType",
+          "startPos": 16,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "马克 接玛丽 已完成",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "马克 拿起牛奶 在我的 待办事项 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 6
+        },
+        {
+          "entity": "ListType",
+          "startPos": 12,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "马克 和汤姆打羽毛球 已完成",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "马克 沙拉 在我的 杂货店   购物 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 12
+        },
+        {
+          "entity": "ListType",
+          "startPos": 16,
+          "endPos": 17
+        }
+      ]
+    },
+    {
+      "text": "马克 沙拉 上的 杂货 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 3,
+          "endPos": 4
+        },
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "标记任务 买一瓶醋 已完成",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "标记任务 去跑步 已完成",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "标记任务 读一本书 就像做的那样",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "将第一个任务标记为已完成",
+      "intent": "MarkToDo",
+      "entities": []
+    },
+    {
+      "text": "标记项目 垃圾 从 杂货店 列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 6
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "标记任务 买牛奶 就像做的那样",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "标记任务 去买点吃的 已完成",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "标记任务转到 购物 已完成",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "标记任务 预订一家餐厅做明天的晚餐 已完成",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "标记任务 去看望我奶奶 已完成",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 5,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "设置 杂货店 已完成的列表",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "将项目设置为已完成",
+      "intent": "MarkToDo",
+      "entities": []
+    },
+    {
+      "text": "购物 列表已完成",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "购物 列表刚刚完成",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "任务已完成 买口香糖",
+      "intent": "MarkToDo",
+      "entities": [
+        {
+          "entity": "TaskContentML",
+          "startPos": 6,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "完成的第三个任务",
+      "intent": "MarkToDo",
+      "entities": []
+    },
+    {
+      "text": "是否有任何其他任务",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "你能为我得到之前吗？",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "您是否可以在中显示下一页。 购物 列表",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 14,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "你能为我展示之前的情况吗？",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "取消",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "取消添加项目",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "取消 所有",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "ContainsAll",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "取消 所有 他们的",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "ContainsAll",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "确认 所有 他们的",
+      "intent": "None",
+      "entities": [
+        {
+          "entity": "ContainsAll",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "确认它",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示下一页",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示上一个",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示上一页",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示更多",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示以前",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示下一个",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "放下",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "忘了它吧",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "没关系",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我不需要它",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我敢肯定, 我想添加此任务",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "我需要检查以前的任务",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "只是取消它",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "下",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "不, 不要这样做",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "不忘了它",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "不用了, 谢谢",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "不，谢谢",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "答案是肯定的",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "当然是",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "还行",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "揭示更多",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "看起来不错",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示回来",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "更早显示",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示更大的",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示上次",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示更多任务",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示更多的工作",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示下一个工作表",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示下一个网站",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "显示了以前的",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "抱歉取消了",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "抱歉不",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "抱歉不谢谢你",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "停止添加它",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "停下",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "确定",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "一定要添加它",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "告诉更多",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "告诉更多任务",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "这就是它",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "这是很好的",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "等待取消它",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "更多的是",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "下一步是什么",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "什么是在未来",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "是的",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "是的, 去吧",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "是的, 我想这样做",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "是的, 就这么做吧",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "是的, 求你了",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "是啊, 确认",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "访问我的 购物 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "访问我的 要做的事 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "访问 杂货 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "所有   购物 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ContainsAll",
+          "startPos": 0,
+          "endPos": 1
+        },
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "提起 杂货店 笔记",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "提起 购物 注意",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "浏览我的 杂货",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "你能展示我的 要做的事 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "检查我的任务列表",
+      "intent": "ShowToDo",
+      "entities": []
+    },
+    {
+      "text": "检查我的 要做的事 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "显示 所有 上个月的笔记",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ContainsAll",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "显示 杂货 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "显示注释。 杂货",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 6,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "显示 购物 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "显示任务说明",
+      "intent": "ShowToDo",
+      "entities": []
+    },
+    {
+      "text": "显示 所有 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "我有一个列表叫 杂货店 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "我有任何名单",
+      "intent": "ShowToDo",
+      "entities": []
+    },
+    {
+      "text": "查找有关 购物",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "找到我的 杂货店 我在星期六保存的项目",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "找到我的 购物 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "查找标记的注释 杂货店",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "查找称为 \"注释\" 的注释 杂货店",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 14,
+          "endPos": 16
+        }
+      ]
+    },
+    {
+      "text": "查找注释 杂货店   购物",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 7
+        },
+        {
+          "entity": "ListType",
+          "startPos": 11,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "查找带 杂货",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "找到 购物",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "在上查找任务列表 购物",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "查找我为其创建的列表 购物",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 11,
+          "endPos": 12
+        }
+      ]
+    },
+    {
+      "text": "找到 要执行列表 给我的",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "获取我的工作项 所有 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "帮助访问我的个人列表",
+      "intent": "ShowToDo",
+      "entities": []
+    },
+    {
+      "text": "帮助显示我的 要做的事 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "我必须看到我的任务",
+      "intent": "ShowToDo",
+      "entities": []
+    },
+    {
+      "text": "我必须看到的 杂货店 列表我创建了今天",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "我想检查我的 购物 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "我想看看 杂货店 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "我身上有什么东西吗？ 要做的事 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 11,
+          "endPos": 14
+        }
+      ]
+    },
+    {
+      "text": "列表 杂货店 笔记",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "看看我的 杂货店 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "拉 杂货店 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 2,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "拉起来 杂货店 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "拉起我的 杂货店 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "拉起我的笔记",
+      "intent": "ShowToDo",
+      "entities": []
+    },
+    {
+      "text": "拉起来 要做的事 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 4,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "大声朗读我的 杂货店 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 7,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "读出我的 任务",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "检讨 杂货店 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "购物 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 0,
+          "endPos": 1
+        }
+      ]
+    },
+    {
+      "text": "给我看 所有 任务",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ContainsAll",
+          "startPos": 4,
+          "endPos": 5
+        }
+      ]
+    },
+    {
+      "text": "显示我的 要做的事 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 8
+        }
+      ]
+    },
+    {
+      "text": "显示我的 到多斯",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "显示我的 所有 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "显示我的 所有",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "查看我的 杂货店 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 5,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "视图 购物 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 3,
+          "endPos": 4
+        }
+      ]
+    },
+    {
+      "text": "怎么样 杂货店 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 4,
+          "endPos": 6
+        }
+      ]
+    },
+    {
+      "text": "我的笔记是什么 杂货店 商店",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "我的任务是什么？ 所有",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 9,
+          "endPos": 10
+        }
+      ]
+    },
+    {
+      "text": "我有什么要买的 购物 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "我需要买什么在 购物 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 9
+        }
+      ]
+    },
+    {
+      "text": "我的是什么 购物 列表",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 6,
+          "endPos": 7
+        }
+      ]
+    },
+    {
+      "text": "哪里是 杂货店   购物 笔记, 我昨晚的工作",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 4,
+          "endPos": 6
+        },
+        {
+          "entity": "ListType",
+          "startPos": 10,
+          "endPos": 11
+        }
+      ]
+    },
+    {
+      "text": "你会提起我的新 杂货店 笔记",
+      "intent": "ShowToDo",
+      "entities": [
+        {
+          "entity": "ListType",
+          "startPos": 8,
+          "endPos": 10
+        }
+      ]
+    }
+  ],
+  "patterns": [
+    {
+      "pattern": "将任务添加到购物 {ShopContent}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加这样做 {TaskContentPattern}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加购买的任务 {ShopContent}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "创建一个要做的事情 {TaskContentPattern}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加购物的任务 {ShopContent}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加购买 {ShopContent} 到我的购物清单",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加一个来做的购买 {ShopContent}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加一个做那家商店 {ShopContent}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "将任务添加到 {TaskContentPattern}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "提醒我买 {ShopContent}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "提醒我去购物 {ShopContent}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加 {TaskContentPattern} 到我的待办事项列表",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加 {TaskContentPattern} 到我的任务",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加购买 {ShopContent} 我的食品杂货清单",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加 {TaskContentPattern} 到我的做",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加一个做, 购买 {ShopContent}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加 {TaskContentPattern} 我的食品杂货清单",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "提醒我购买 {ShopContent}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "创建任务以 {TaskContentPattern}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加 {TaskContentPattern} 到我的要做的列表",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加一个要做的 {TaskContentPattern}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "创建要做的事情 {TaskContentPattern}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "提醒我 {TaskContentPattern}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "创建一个任务 {TaskContentPattern}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "添加到做 {TaskContentPattern}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "提醒我, {TaskContentPattern}",
+      "intent": "AddToDo"
+    },
+    {
+      "pattern": "删除以执行 {TaskContentPattern}",
+      "intent": "DeleteToDo"
+    },
+    {
+      "pattern": "删除任务 {TaskContentPattern}",
+      "intent": "DeleteToDo"
+    },
+    {
+      "pattern": "删除要执行的操作 {TaskContentPattern}",
+      "intent": "DeleteToDo"
+    },
+    {
+      "pattern": "删除要执行 {TaskContentPattern}",
+      "intent": "DeleteToDo"
+    },
+    {
+      "pattern": "删除要执行的 {TaskContentPattern}",
+      "intent": "DeleteToDo"
+    },
+    {
+      "pattern": "完成任务 {TaskContentPattern}",
+      "intent": "MarkToDo"
+    },
+    {
+      "pattern": "马克 {TaskContentPattern} 已完成",
+      "intent": "MarkToDo"
+    },
+    {
+      "pattern": "标记任务 {TaskContentPattern} 已完成",
+      "intent": "MarkToDo"
+    }
+  ],
+  "patternAnyEntities": [
+    {
+      "name": "ShopContent",
+      "explicitList": [],
+      "roles": []
+    },
+    {
+      "name": "TaskContentPattern",
+      "explicitList": [],
+      "roles": []
+    }
+  ],
+  "prebuiltEntities": [
+    {
+      "name": "ordinal",
+      "roles": []
+    }
+  ],
+  "luis_schema_version": "3.0.0",
+  "versionId": "0.1",
+  "name": "ToDo",
+  "desc": "",
+  "culture": "zh-cn"
+}

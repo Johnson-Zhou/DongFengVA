@@ -1,0 +1,85 @@
+{
+    "name": "DongFengVAen",
+    "description": "",
+    "services": [
+        {
+            "type": "luis",
+            "name": "DongFengVAen_General",
+            "appId": "97eac76f-c8fd-48f2-a13a-7b879848d532",
+            "authoringKey": "C236b1ae109b45ca859daad4b44b1387",
+            "subscriptionKey": "C236b1ae109b45ca859daad4b44b1387",
+            "version": "0.1",
+            "region": "westus",
+            "id": "general"
+        },
+        {
+            "type": "luis",
+            "name": "DongFengVAen_Calendar",
+            "appId": "74bc919e-8455-403d-bd20-3368b085a56c",
+            "authoringKey": "C236b1ae109b45ca859daad4b44b1387",
+            "subscriptionKey": "C236b1ae109b45ca859daad4b44b1387",
+            "version": "0.1",
+            "region": "westus",
+            "id": "calendar"
+        },
+        {
+            "type": "luis",
+            "name": "DongFengVAen_Email",
+            "appId": "bc9f0ba5-8150-435e-8147-09c609964c3f",
+            "authoringKey": "C236b1ae109b45ca859daad4b44b1387",
+            "subscriptionKey": "C236b1ae109b45ca859daad4b44b1387",
+            "version": "0.1",
+            "region": "westus",
+            "id": "email"
+        },
+        {
+            "type": "luis",
+            "name": "DongFengVAen_ToDo",
+            "appId": "523e362f-39e4-4969-8721-b81d6682738b",
+            "authoringKey": "C236b1ae109b45ca859daad4b44b1387",
+            "subscriptionKey": "C236b1ae109b45ca859daad4b44b1387",
+            "version": "0.1",
+            "region": "westus",
+            "id": "todo"
+        },
+        {
+            "type": "luis",
+            "name": "DongFengVAen_PointOfInterest",
+            "appId": "886f72cc-1633-4436-96f2-df558825bee8",
+            "authoringKey": "C236b1ae109b45ca859daad4b44b1387",
+            "subscriptionKey": "C236b1ae109b45ca859daad4b44b1387",
+            "version": "0.1",
+            "region": "westus",
+            "id": "pointofinterest"
+        },
+        {
+            "type": "qna",
+            "name": "FAQ",
+            "id": "faq",
+            "kbId": "352c87ba-82aa-4d94-a533-00d66ba4578b",
+            "subscriptionKey": "bd7e7511ce3243b2b99efd411ffb2f10",
+            "endpointKey": "9df37f18-8937-4bc9-8e63-5c4be6e0dde0",
+            "hostname": "https://dongfengvaen-qnahost.azurewebsites.net/qnamaker"
+        },
+        {
+            "type": "dispatch",
+            "serviceIds": [
+                "general",
+                "calendar",
+                "email",
+                "todo",
+                "pointofinterest",
+                "faq"
+            ],
+            "name": "DongFengVAen_Dispatch",
+            "appId": "df3db4a3-b70c-447a-8516-8d73f1af93a7",
+            "authoringKey": "C236b1ae109b45ca859daad4b44b1387",
+            "subscriptionKey": "C236b1ae109b45ca859daad4b44b1387",
+            "version": "Dispatch",
+            "region": "westus",
+            "id": "dispatch"
+        }
+    ],
+    "padlock": "",
+    "version": "2.0"
+}

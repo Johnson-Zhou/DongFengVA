@@ -1,0 +1,70 @@
+{
+    "name": "DongFengVA",
+    "description": "",
+    "services": [
+        {
+            "type": "abs",
+            "id": "199",
+            "name": "DongFengVA",
+            "tenantId": "a979b94d-0606-4cbf-a04a-3aefa05c4172",
+            "subscriptionId": "3bbd6196-2d92-42af-83d1-fb87779df4f2",
+            "resourceGroup": "DongFengVA",
+            "serviceName": "DongFengVA",
+            "appId": "78c01d47-1449-4d5f-aadf-b8ed247548f4"
+        },
+        {
+            "type": "endpoint",
+            "id": "1",
+            "name": "development",
+            "appId": "78c01d47-1449-4d5f-aadf-b8ed247548f4",
+            "appPassword": "fQIJGZuzN+kv49mkSCeb6A==!h2hX/3N5w+IdUKZhtib+O3BOWrwMXv77dVW6EJTFQvU=",
+            "endpoint": "http://localhost:3979/api/messages"
+        },
+        {
+            "type": "endpoint",
+            "id": "108",
+            "name": "production",
+            "appId": "78c01d47-1449-4d5f-aadf-b8ed247548f4",
+            "appPassword": "QksUodhRhzzlVs49cf4mHQ==!xXv78FVsh+plDqzR7vmJPtQP4WEIhk4YAlbXIuNNm5U=",
+            "endpoint": "https://ongengmg0d.azurewebsites.net/api/messages"
+        },
+        {
+            "type": "blob",
+            "id": "2",
+            "name": "ongeng7dnh",
+            "serviceName": "ongeng7dnh",
+            "tenantId": "a979b94d-0606-4cbf-a04a-3aefa05c4172",
+            "subscriptionId": "3bbd6196-2d92-42af-83d1-fb87779df4f2",
+            "resourceGroup": "DongFengVA",
+            "connectionString": "TiWULZP82hek9vLHuvHYdQ==!VhXpYiSzHdD4ajmWESp3tB8JlE9+6EK4KpGOp0qfA4qdOJ0aa82q+SdOnceiLg0d+NpklGZgAUy83Q6E7DwC3P9RsY618YhNz4gWNZin1XcfQhN418qc/Lk/B0AoJkJpeM7Ukc6YD2AEYYrjvyEMe7eDJn+oOMWpGvS1XZsEBZbVIwzUCVBxQgu0haMy+LqBDiVkxuZZRVdIX7PlLGz6NfVhYI65fRS0S48UQQjwgHhH//4kSXbjT7D2zZ3aSDnU",
+            "container": "transcripts"
+        },
+        {
+            "type": "appInsights",
+            "tenantId": "a979b94d-0606-4cbf-a04a-3aefa05c4172",
+            "subscriptionId": "3bbd6196-2d92-42af-83d1-fb87779df4f2",
+            "resourceGroup": "DongFengVA",
+            "name": "DongFengVAbgyj7m",
+            "serviceName": "DongFengVAbgyj7m",
+            "instrumentationKey": "aq+Ah2nkuvvSFgFQp8+rTg==!uvSGTI5rUIm7l/piVWn8OqDZxLvz3vGOAsCsSmD4vQ1+eba9nXbdS9kw57AhRU88",
+            "applicationId": "a4fba495-b00c-410d-a4ca-c7fb9a1e9e05",
+            "apiKeys": {},
+            "id": "3"
+        },
+        {
+            "type": "cosmosdb",
+            "id": "8",
+            "name": "dongfengva",
+            "serviceName": "dongfengva",
+            "tenantId": "a979b94d-0606-4cbf-a04a-3aefa05c4172",
+            "subscriptionId": "3bbd6196-2d92-42af-83d1-fb87779df4f2",
+            "resourceGroup": "DongFengVA",
+            "endpoint": "https://dongfengva.documents.azure.com:443/",
+            "key": "jpvgyQQip8PAG/w6LAvOBQ==!GVqWBS1rpolEOOjcgs8+/xJNBNwaNeXk86eu62GUYKN0jqw4hIrbs1zh6IsqSWZb5HZpcn8CGOvcnpt7zotUOfLwOssAV5aLt5tpxH8sEeHvEW1vkAcdT1FWhYF1cx5W",
+            "database": "botstate-db",
+            "collection": "botstate-collection"
+        }
+    ],
+    "padlock": "klx2nH/nckQrFQBNz2INcw==!A0UZuz8m5N+rNNQ8/d8rVp65ocpOFfrYvCbT7G9piQ4rk+q6gs98OeHY24AOkMpM",
+    "version": "2.0"
+}
