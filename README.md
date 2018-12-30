@@ -1,7 +1,7 @@
 # DongFengVA
 
 Targeting to implemente a demo to be installed in vehicle head unit while backend hosted into azure.
-Leveraging Azure capability to fullfill scenarios that drivers initialate voice in car, then translated into intent, response back and take actions.
+Leveraging Azure capability to fullfill scenarios that drivers initiate voice in car, then translated into intent, response back and take actions.
 
 The most important azure components would be:
 1, VA assistant framework
